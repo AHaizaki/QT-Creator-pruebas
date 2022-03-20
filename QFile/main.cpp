@@ -26,6 +26,7 @@ int main(int argc, char *argv[])
             QByteArray content;
             content = "Jeje";
             file.write(":)");
+            file.flush();
             file.close();
         }
     }
